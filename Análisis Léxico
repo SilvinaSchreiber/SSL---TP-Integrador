@@ -1,1 +1,30 @@
+# Análisis Léxico
 
+1. Digraphs y Trigraphs
+Son secuencias de dos o tres caracteres, respectivamente, que aparecen en el código y deberían ser tratadas como si fueran un solo caracter.
+
+2. ¿Cuándo se reemplazan los trigraphs? ¿Y los digraphs?
+El pre procesador de C reemplaza todas las ocurrencias de las siguente nueve secuencias predeterminadas por su caracetr equivalente antes de cualquier otro procesamiento:
+??=  =  #
+??/  =  \
+??·  =  ^
+??(  =  [
+??)  =  ]
+??!  =  |
+??<  =  {
+??>  =  }
+??-  =  ~
+
+A comparación de los trigraphs, los digraphs son tratados durante la tokenización, y todo digraphs debe representar un token.
+<:  =  [
+:>  =  ]
+<%  =  {
+%>  =  }
+%:  =  #
+
+3. Escriba la secuencia de lexemas a partir de la secuencia de caracteres
+
+4. Escriba la secuencia de tokens, a partir de la secuencia de lexemas
+
+5. Indique si la UT es léxicamente correcta
+Si, es correcta léxicamente.
