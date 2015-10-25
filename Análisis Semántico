@@ -1,7 +1,14 @@
 # Análisis Semántico
 
 1. Indique si la UT es semánticamente correcta
+Si, es semánticamente correcta.
 
 2. Si es semanticamente correcto, indique qué hace el programa.
+- Declara el prototipo de la funcion printf, donde indica que recibe N parametros.
+- Declara e inicializa un array de enteros, donde el único elemento es el -1. 
+- Utiliza la funcion printf, para imprimir la salida (dos enteros decimales), y como argumentos tiene las siguientes expresiones: 
+  1° Argumento) Se compone de tres expresiones. Empieza desde la derecha y hace el sizeof del elemento en la posicion 0 del array, después le resta al array el valor obtenido anteriormente y lo con ese resultado se resta una posición de memoria al array. 
+  2° Argumento) Realiza el sizeof del tipo de datos CHAR colocando los parentesis obligatorios, luego se obtiene el elemento que está en la posición 0 del array.
 
 3. Si es semanticamente correcto, indique la salida.
+La salida del programa es 00.
