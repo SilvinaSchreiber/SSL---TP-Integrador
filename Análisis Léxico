@@ -23,10 +23,24 @@ A comparación de los trigraphs, los digraphs son tratados durante la tokenizaci
 %:  =  #
 
 3. Escriba la secuencia de lexemas a partir de la secuencia de caracteres
+Listado de lexemas:
+int
+_
+[ 
+:> 
+= 
+<% 
+- 
+! 
+.0 
+, 
+} 
+;
+
+
 4. Escriba la secuencia de tokens, a partir de la secuencia de lexemas
-
-
-
+Tokens:
+int []={-1,}; printf("%d%d",sizeof - sizeof [0],sizeof(char)+ [0]);
 
 5. Indique si la UT es léxicamente correcta
 Si, es correcta léxicamente.
