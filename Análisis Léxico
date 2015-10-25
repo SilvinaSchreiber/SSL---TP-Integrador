@@ -23,8 +23,10 @@ A comparación de los trigraphs, los digraphs son tratados durante la tokenizaci
 %:  =  #
 
 3. Escriba la secuencia de lexemas a partir de la secuencia de caracteres
-
 4. Escriba la secuencia de tokens, a partir de la secuencia de lexemas
+
+
+
 
 5. Indique si la UT es léxicamente correcta
 Si, es correcta léxicamente.
